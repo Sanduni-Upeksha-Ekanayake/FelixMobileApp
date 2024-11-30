@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkinCareProductApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Photo"
+            android:exported="false" />
+        <activity
+            android:name=".P_Pic"
+            android:exported="false" />
+        <activity
+            android:name=".Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".PlaceOrder"
+            android:exported="false" />
+        <activity
+            android:name=".MyCart"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary8"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil21"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil17"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil6"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil8"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil5"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil4"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil14"
+            android:exported="false" />
+        <activity
+            android:name=".CetaphilToner"
+            android:exported="false" />
+        <activity
+            android:name=".OrdinaryMilk"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary13"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary11"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary19"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary4"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary3"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil19"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil28"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil24"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil23"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil20"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil27"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil18"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil15"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil13"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil12"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil11"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil7"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil10"
+            android:exported="false" />
+        <activity
+            android:name=".Cetaphil3"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary23"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary26"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary24"
+            android:exported="false" />
+        <activity
+            android:name=".Ordinary18"
+            android:exported="false" />
+        <activity
+            android:name=".Moisturizer"
+            android:exported="false" />
+        <activity
+            android:name=".Facewash"
+            android:exported="false" />
+        <activity
+            android:name=".Toner"
+            android:exported="false" />
+        <activity
+            android:name=".Serum"
+            android:exported="false" />
+        <activity
+            android:name=".All"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".Thanks"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
